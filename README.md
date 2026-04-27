@@ -104,7 +104,7 @@
    * **해결:** 수업에서 배운 내용을 반영하기 위해 backup_titles = titles[:] 방식으로 리스트를 복사하였다.
      
 ### **📁 증빙 자료:**
-  * [2차_AI협업캡처.pdf 첨부 완료] (https://github.com/MJU-PY-2026-1/mju-py-homework-ryuyeon0gain/blob/main/AI%20%ED%98%91%EC%97%85%EC%A6%9D%EB%AA%852.pdf)
+  * [2차_AI협업캡처.pdf 첨부 완료] (https://github.com/MJU-PY-2026-1/mju-py-homework-ryuyeon0gain/blob/main/AI%20%ED%98%91%EC%97%85%EC%A6%9D%EB%AA%85_2.pdf)
   * [2차과제_실행결과.jpg] (https://github.com/MJU-PY-2026-1/mju-py-homework-ryuyeon0gain/blob/main/%EC%8B%A4%ED%96%89%20%EA%B2%B0%EA%B3%BC.pdf)
 
 
