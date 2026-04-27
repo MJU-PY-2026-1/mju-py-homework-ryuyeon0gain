@@ -52,7 +52,7 @@
   해결: 평점은 float()로 입력받고, 출력 시 f-string의 .1f를 사용하여 항상 같은 형식으로 표시되도록 수정하였다.
 
 ### **📁 증빙 자료:**
-  * [1차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
+  * [1차_AI협업캡처.pdf 첨부 완료] (<img width="1766" height="210" alt="image" src="https://github.com/user-attachments/assets/e3e9c3c4-0f7c-4652-856b-341d4d3afc69" />)
 
 
 
