@@ -1,4 +1,4 @@
-# 파일이름 :
+# 파일이름 : Project
 # 작 성 자 : Choi Seo Yeon
 
 # 1. 곡 정보 입력
