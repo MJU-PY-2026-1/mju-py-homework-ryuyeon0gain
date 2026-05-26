@@ -1,4 +1,4 @@
-름 : Project.py
+# 이름 : Project.py
 # 작 성 자 : Choi Seo Yeon
 
 # 0. AI 추천곡 정보
