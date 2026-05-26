@@ -94,7 +94,7 @@ grades.insert(1,ai_grade)
 # 4. 메뉴 시스템 시작
 while True :
   print(f"\n==== 음악 취향 분석 및 플레이리스트 관리 시스템 ====")
-  print("1. 전체 곡 목록 출력")
+  print("1. 전체 플레이리스트 분석 결과 출력")
   print("2. 등급별 곡 출력")
   print("3. 최고 선호도 곡 찾기")
   print("4. 평균 선호도 계산")
@@ -105,14 +105,34 @@ while True :
 menu = int(input("메뉴 번호를 선택하세요"))
 
 if menu == 1:
-  print("\n==== 전체 곡 목록 ====")
+print("\n==== 1. 전체 플레이리스트 분석 결과 출력 ====")
 
-  for i in range(len(titles)):
-    print(f"\n{i + 1}번 곡은 '{titles[i]}'입니다.")
-    print(f"아티스트는 '{artists[i]}'이고, 장르는 '{genres[i]}'입니다.")
-    print(f"재생 횟수는 {play_counts[i]}회이고, 개인 평점은 {ratings[i]:.1f}점입니다.")
-    print(f"선호도 점수는 '{preference_scores[i]:.2f}'이고, 등급은 '{grades[i]}'입니다.")
+print("\n1번 곡")
+print(f"곡 제목 : {titles[0]}")
+print(f"아티스트 : {artists[0]}")
+print(f"장르 : {genres[0]}")
+print(f"재생 횟수 : {play_counts[0]}회")
+print(f"개인 평점 : {ratings[0]:.1f}점")
+print(f"선호도 점수 : {preference_scores[0]:.2f}")
+print(f"등급 : {grades[0]}")
 
+print("\n2번 곡")
+print(f"곡 제목 : {titles[1]}")
+print(f"아티스트 : {artists[1]}")
+print(f"장르 : {genres[1]}")
+print(f"재생 횟수 : {play_counts[1]}회")
+print(f"개인 평점 : {ratings[1]:.1f}점")
+print(f"선호도 점수 : {preference_scores[1]:.2f}")
+print(f"등급 : {grades[1]}")
+
+print("\n3번 곡")
+print(f"곡 제목 : {titles[2]}")
+print(f"아티스트 : {artists[2]}")
+print(f"장르 : {genres[2]}")
+print(f"재생 횟수 : {play_counts[2]}회")
+print(f"개인 평점 : {ratings[2]:.1f}점")
+print(f"선호도 점수 : {preference_scores[2]:.2f}")
+print(f"등급 : {grades[2]}")
 
 elif menu == 2:
   search_grade = input("\n출력할 등급을 입력하세요(인생곡/추천곡/일반곡/정리대상): ")
@@ -189,37 +209,6 @@ elif menu == 0:
 else:
   print("\n잘못된 메뉴 번호입니다. 0번부터 5번 사이의 번호를 다시 입력하세요.")
 
-
-
-# 5. 결과 출력
-print("\n==== 전체 플레이리스트 분석 결과 ====")
-
-print("\n1번 곡")
-print(f"곡 제목 : {titles[0]}")
-print(f"아티스트 : {artists[0]}")
-print(f"장르 : {genres[0]}")
-print(f"재생 횟수 : {play_counts[0]}회")
-print(f"개인 평점 : {ratings[0]:.1f}점")
-print(f"선호도 점수 : {preference_scores[0]:.2f}")
-print(f"등급 : {grades[0]}")
-
-print("\n2번 곡")
-print(f"곡 제목 : {titles[1]}")
-print(f"아티스트 : {artists[1]}")
-print(f"장르 : {genres[1]}")
-print(f"재생 횟수 : {play_counts[1]}회")
-print(f"개인 평점 : {ratings[1]:.1f}점")
-print(f"선호도 점수 : {preference_scores[1]:.2f}")
-print(f"등급 : {grades[1]}")
-
-print("\n3번 곡")
-print(f"곡 제목 : {titles[2]}")
-print(f"아티스트 : {artists[2]}")
-print(f"장르 : {genres[2]}")
-print(f"재생 횟수 : {play_counts[2]}회")
-print(f"개인 평점 : {ratings[2]:.1f}점")
-print(f"선호도 점수 : {preference_scores[2]:.2f}")
-print(f"등급 : {grades[2]}")
 
 # 리스트 복사 및 삽입 확인
 print("\n==== 리스트 복사 및 삽입 확인 ====")
